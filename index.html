@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Battleships</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <div class="deg"> -->
+
+        <div class="text">
+            <h1>BattleShips_Game👻</h1>
+        </div>
+        <div class="main button-85">
+            <div class="textSize" id="game-info">
+                <p>Turn:<span id="turn-display"></span></p>
+                <p>Info:<span id="info"></span></p>
+            </div>
+            <div class="game-name">
+                <div>
+                    <h2>Computer</h2>
+                </div>
+                <div>
+                    <h2>User</h2>
+                </div>
+            </div>
+            <div id="gamesboard-container"></div>
+            <div class="option-container">
+                <div id="0" class="destroyer-preview destroyer" draggable="true"></div>
+                <div id="1" class="submarine-preview submarine" draggable="true"></div>
+                <div id="2" class="crusier-preview crusier" draggable="true"></div>
+                <div id="3" class="battelship-preview battelship" draggable="true"></div>
+                <div id="4" class="carrier-preview carrier" draggable="true"></div>
+            </div>
+            <div class="button-middle">
+                <button class="button-85" id="flip-button">Flip</button>
+                <button class="button-85" id="Start-button">Start</button>
+            </div>
+
+        </div>
+
+        <svg style="margin-top: 24%;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="rgba(50, 50, 93, 0.25)" fill-opacity="1"
+                d="M0,224L9.6,197.3C19.2,171,38,117,58,122.7C76.8,128,96,192,115,181.3C134.4,171,154,85,173,69.3C192,53,211,107,230,128C249.6,149,269,139,288,165.3C307.2,192,326,256,346,282.7C364.8,309,384,299,403,272C422.4,245,442,203,461,176C480,149,499,139,518,154.7C537.6,171,557,213,576,197.3C595.2,181,614,107,634,69.3C652.8,32,672,32,691,64C710.4,96,730,160,749,181.3C768,203,787,181,806,160C825.6,139,845,117,864,117.3C883.2,117,902,139,922,133.3C940.8,128,960,96,979,80C998.4,64,1018,64,1037,101.3C1056,139,1075,213,1094,234.7C1113.6,256,1133,224,1152,192C1171.2,160,1190,128,1210,117.3C1228.8,107,1248,117,1267,154.7C1286.4,192,1306,256,1325,240C1344,224,1363,128,1382,122.7C1401.6,117,1421,203,1430,245.3L1440,288L1440,320L1430.4,320C1420.8,320,1402,320,1382,320C1363.2,320,1344,320,1325,320C1305.6,320,1286,320,1267,320C1248,320,1229,320,1210,320C1190.4,320,1171,320,1152,320C1132.8,320,1114,320,1094,320C1075.2,320,1056,320,1037,320C1017.6,320,998,320,979,320C960,320,941,320,922,320C902.4,320,883,320,864,320C844.8,320,826,320,806,320C787.2,320,768,320,749,320C729.6,320,710,320,691,320C672,320,653,320,634,320C614.4,320,595,320,576,320C556.8,320,538,320,518,320C499.2,320,480,320,461,320C441.6,320,422,320,403,320C384,320,365,320,346,320C326.4,320,307,320,288,320C268.8,320,250,320,230,320C211.2,320,192,320,173,320C153.6,320,134,320,115,320C96,320,77,320,58,320C38.4,320,19,320,10,320L0,320Z">
+            </path>
+        </svg>
+    <!-- </div> -->
+
+    <script src="app.js"></script>
+</body>
+
+</html>
